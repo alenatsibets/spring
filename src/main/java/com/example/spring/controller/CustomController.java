@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.util.List;
 
 @Controller
-public class MultiplyController {
+public class CustomController {
     private final UserService userService;
 
-    public MultiplyController(UserService userService) {
+    public CustomController(UserService userService) {
         this.userService = userService;
     }
 
